@@ -26,7 +26,7 @@ jobs:
         path: current-repo
 
     - name: Run the copy action
-      uses: ./config/actions/copy
+      uses: config-repo/actions/copy
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
