@@ -2,6 +2,7 @@ name: Upate
 
 on:
   repository_dispatch:
+    types: working-dir-update
 
 jobs:
   build:
